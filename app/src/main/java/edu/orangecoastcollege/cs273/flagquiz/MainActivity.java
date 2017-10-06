@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
             }
         } else {
             // TODO: Else, the answer is incorrect, so display "Incorrect Guess!" in red
-            // TODO: and disable just the incorrect button.
+            // TODO: and disable just the incorrect button
             mAnswerTextView.setText(getString(R.string.incorrect_answer));
             mAnswerTextView.setTextColor(ContextCompat.getColor(this, R.color.incorrect_answer));
             clickedButton.setEnabled(false);
